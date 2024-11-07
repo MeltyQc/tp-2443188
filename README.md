@@ -22,7 +22,7 @@ Copyright @ 2024 Justin Duchesne. Tous droits réservés.
 
 
 
-
+gitIgnore ne marche pas 
 Il te manque 3.8
 
 Information
