@@ -1,5 +1,1 @@
-*.pdf
-*.env
-/TP1(1) 
-.node_modules/
-.out/
+/TP1
