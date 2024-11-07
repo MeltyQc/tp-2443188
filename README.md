@@ -12,7 +12,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 ![TEMP](images/dream.png "TEMP2")
 ## Contributeurs
 ---
-<p style="color: blue;">-Justin Duchesne</p>-Auteur principal
+<p style="color: blue">-Justin Duchesne</p> Auteur principal
 ## Liscence
 ---
 Copyright @ 2024 Justin Duchesne. Tous droits réservés.
