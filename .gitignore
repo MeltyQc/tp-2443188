@@ -1,5 +1,5 @@
 *.pdf # Enlève tout les pdf non utile au fonctionnement de la page web 
 *.env
-TP1(1)/ # Enlève le chemin vers tout les pdf non utile au fonctionnement de la page web 
-node_modules/
-out/
+.TP1(1)/ # Enlève le chemin vers tout les pdf non utile au fonctionnement de la page web 
+.node_modules/
+.out/
