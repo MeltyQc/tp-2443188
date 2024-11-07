@@ -8,8 +8,8 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 2. Texte de l’étape 2
 3. Texte de l’étape 3
 4. Texte de l’étape 4
-![TEMP](\images\dream.png "TEMP2")
-![TEMP](\images\dream.png "TEMP2")
+![TEMP](images\dream.png "TEMP2")
+![TEMP](images\dream.png "TEMP2")
 ## Contributeurs
 ---
 -<p style="color: blue;">Justin Duchesne</p>-Auteur principal
