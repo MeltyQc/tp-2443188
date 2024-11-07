@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain World -Commentaire</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Justin Duchesne 2024-->
+    <!--All pictures credits goes to Akupara Games and Videocult for Rain World-->
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <img src="images/rainlogo.png" alt="Vieux logo de Rain World">
+            <h1 id="top">Rain World Info</h1>
+        </header>
+        <nav>
+            <div class="left-Portion">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="galerie-images.html">Galerie Photo</a></li>
+                    <li><a class="selectedLink" href="commentaires.html">Commentaire</a></li>
+                </ul>
+            </div>
+            <div class="right-Portion">
+                <ul>
+                    <li><a href="connexion.html">Se connecter</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main-Height-Comment">
+                <section>
+                    <div>
+                        <h1>Commentaire</h1>
+                    </div>
+                    <form action="mailto:justinduchesne2007@gmail.com" method="post" enctype="text/plain">
+                        <div class="flexbox">
+                            <fieldset class="formulaire">
+                                <div class="txtInput">
+                                    <div>
+                                        <label for="txtMail">E-mail</label>
+                                        <input type="email" name="txtMail" id="txtMail" required>
+                                    </div>
+                                    <div>
+                                        <label for="txtFirstName">Prénom</label>
+                                        <input type="text" name="txtFirstName" id="txtFirstName" required>
+                                    </div>
+                                    <div>
+                                        <label for="txtLastName">Nom de famille</label>
+                                        <input type="text" name="txtLastName" id="txtLastName" required>
+                                    </div>
+                                    <div>
+                                        <label for="telPhoneNumber">numéro de téléphone</label>
+                                        <input type="tel" name="telPhoneNumber" id="telPhoneNumber"
+                                            placeholder="###-###-####">
+                                    </div>
+                                    <div>
+                                        <label for="birthDate">Date de naissance:</label>
+                                        <input type="date" name="birthDate" id="birthDate">
+                                    </div>
+                                    <div class="fixVerticalText">
+                                        <label for="selectProvince">Province</label>
+                                        <select name="selectProvince" id="selectProvince" size="6">
+                                            <option value="AB">Alberta</option>
+                                            <option value="BC">Colombie-Britannique</option>
+                                            <option value="MB">Manitoba</option>
+                                            <option selected value="QC">Québec</option>
+                                            <option value="NL">Terre-Neuve-et-Labrador</option>
+                                            <option value="NL">Territoires du Nord-Ouest</option>
+                                        </select>
+                                    </div>
+                                    <div class="fix-Vertical-Text">
+                                        <label for="comments">Commentaire:</label>
+                                        <textarea rows="7" cols="30" name="comments" id="comments"></textarea>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="choice">
+                                <div class="checkbox">
+                                    <div>
+                                        <p>Gout de type de jeux vidéo</p>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="checkJeux" id="mmorpg">
+                                        <label for="mmorpg">Jeu de rôle en ligne massivement multijoueur</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="checkJeux" id="rpg">
+                                        <label for="rpg">Jeu de rôle</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="checkJeux" id="rogue">
+                                        <label for="rogue">Rogue-Like</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="checkJeux" id="puzzle">
+                                        <label for="puzzle">Jeu de puzzle </label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="checkJeux" id="action">
+                                        <label for="action">Jeu d'action</label>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p>Évaluer le site</p>
+                                </div>
+                                <div>
+                                    <input checked type="radio" name="rbEvaluation" id="excellent">
+                                    <label for="excellent">Excellent</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="rbEvaluation" id="tresBien">
+                                    <label for="tresBien">Très Bien</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="rbEvaluation" id="moyen">
+                                    <label for="moyen">Moyen</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="rbEvaluation" id="bof">
+                                    <label for="bof">Bof</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="send-Buttons">
+                            <input type="submit" value="Envoyer les commentaires">
+                            <input type="reset" value="Rénitialiser">
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="grid">
+                <div class="top">
+                    <p><a href="#top">Haut de la page</a></p>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2024</p>
+                </div>
+                <div class="classroom">
+                    <p>420-W11-SF</p>
+                </div>
+                <div class="homework">
+                    <p>Travail Pratique 1</p>
+                </div>
+                <div class="name">
+                    <p>Justin Duchesne</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

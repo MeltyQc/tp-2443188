@@ -1,0 +1,200 @@
+/* générale */
+.page,
+footer {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(111, 29, 52);
+    color: rgb(218, 247, 166);
+}
+
+.page {
+    border: 2px solid;
+    border-radius: 1%;
+}
+
+footer {
+    border-top: 2px solid;
+    border-radius: 1%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+body {
+    background-image: url("../images/Rubicon.png");
+    /* All credits goes to Akupara Games and Videocult for the pictures*/
+    background-size: 100% auto;
+    /* https://stackoverflow.com/questions/11218952/css-background-image-resize-width-crop-height */
+}
+
+fieldset {
+    margin: auto;
+    border: 0px solid;
+}
+
+.main-Height {
+    display: flex;
+}
+
+a:visited:not(.selectedLink) {
+    color: rgb(255, 87, 51);
+    /* https://www.geeksforgeeks.org/how-to-exclude-particular-class-name-from-css-selector/ */
+}
+
+a:not(.selectedLink) {
+    color: rgb(255, 87, 51);
+    /* https://www.geeksforgeeks.org/how-to-exclude-particular-class-name-from-css-selector/ */
+    /*si je le sépare pas du a:visited le changement de couleur ne marche pas */
+}
+
+/* Nav */
+.selectedLink {
+    color: rgb(145, 193, 127);
+}
+
+.left-Portion {
+    width: 80%;
+}
+
+.right-Portion {
+    border-left: 2px solid;
+}
+
+nav>.left-Portion>ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+nav .left-Portion ul>li>a {
+    padding: 16px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+nav .right-Portion ul>li>a {
+    padding: 16px;
+    padding-right: 50px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+nav ul>li>a:hover {
+    background-color: rgb(43, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+nav div>ul>li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+/* footer */
+.grid {
+    display: grid;
+    text-align: center;
+    justify-content: space-between;
+    grid-template-columns: 266px 266px 266px;
+}
+
+.classroom {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.homework {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.name {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+/* Acceuil */
+.accueil {
+    width: 65%;
+}
+
+.accueil a {
+    margin-right: 10px;
+}
+
+.nouvelles {
+    width: 35%;
+    border-left: 2px solid;
+}
+
+.flex,
+article {
+    display: flex;
+    align-items: center;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+table,
+td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+ol {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+/* Gallerie */
+.flex-Gallerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px;
+}
+
+.flex-Gallerie img {
+    margin: 5px;
+}
+
+/* Commentaire */
+.main-Height-Comment {
+    height: 500px;
+}
+
+.formulaire label {
+    display: inline-block;
+    width: 200px;
+}
+
+.txtInput input,
+select {
+    display: inline-block;
+    width: 200px;
+}
+
+.flexbox {
+    font-size: larger;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.fix-Vertical-Text label {
+    vertical-align: top;
+}
+
+.send-Buttons {
+    text-align: center;
+    margin-top: 15px;
+}
