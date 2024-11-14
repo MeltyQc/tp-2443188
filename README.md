@@ -13,7 +13,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 ![Étape 4](.docs/deuxiemeEtape.png "Étape 4")
 ## Contributeurs
 ---
-- Justin Duchesne -Auteur principal
+-[Justin Duchesne](https://www.google.com/search?client=firefox-b-d&q=justin+duchesne)-Auteur principal
 ## Liscence
 ---
 Copyright @ 2024 Justin Duchesne. Tous droits réservés.
