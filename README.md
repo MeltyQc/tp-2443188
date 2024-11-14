@@ -4,14 +4,13 @@ Ce dépôt contient le code d’un projet web fait dans le cours de Perspective 
 ## Faire un *commit* et un *push* dans *Visual Studio Code*
 ---
 Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
-1. Faire un Changement sur le projet
-2. Aller dans l'onglet Source Control de Visual Studio Code
-3. Cliquer sur le menue hamberguer de SOURCE CONTROLE REPOSITARY et cliquer sur pull
-4. Écrire ce que tu as modifier dans SOURCE CONTROL
-5. et ensuite cliquer sur le menue déroulant du bouton bleue et faire Commit and push
+1. Aller dans l'onglet "Source Control" de Visual Studio Code
+2. Cliquer sur les 3 points de suspension de "SOURCE CONTROLE REPOSITORIES" et cliquer sur pull
+3. Écrire brièvement les modifications dans "SOURCE CONTROL"
+4. Cliquer sur le menu déroulant du bouton bleu et cliquer sur "Commit & Push"
 
-![TEMP](images/dream.png "aTEMP2")
-![TEMP](images/dream.png "TEMP2")
+![Étape 1,2,3](.docs/premiereEtape.png "Étape 1,2,3")
+![Étape 4](.docs/deuxiemeEtape.png "Étape 4")
 ## Contributeurs
 ---
 - Justin Duchesne -Auteur principal
@@ -19,11 +18,7 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 ---
 Copyright @ 2024 Justin Duchesne. Tous droits réservés.
 
-
-
-
-gitIgnore ne marche pas 
 Il te manque 3.8
 
 Information
-Placez les images pour le README dans un dossier .docs, séparé du dossier img du projet web.
+
